@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/edit" method="post" class=" gun">
+        <input type="hidden" value= "<%= id %>" name="id">
+        <input type="text" value=" <%= values.title %>"  placeholder="replace item" name="title">
+        <input type="text" value=" <%= values.description %>" placeholder="replace quantity"  name="description">
+        <button class="btn btn-primary">save changes</button>
+    </form>
+s
+</body>
+</html>
